@@ -1,0 +1,29 @@
+Funciones permitidas: Ninguna
+
+Enunciado
+Escribe una función que devuelva una cadena con los caracteres que aparecen en ambas cadenas, sin repeticiones. Los caracteres se añaden en el orden en que aparecen en la primera cadena.
+
+Firma de la función
+def inter(s1: str, s2: str) -> str:
+
+Ejemplos
+Entrada
+inter("hello", "world")
+Salida
+"lo"
+Entrada
+inter("banana", "band")
+Salida
+"ban"
+Entrada
+inter("abcabc", "bc")
+Salida
+"bc"
+Entrada
+inter("abc", "xyz")
+Salida
+""
+Entrada
+inter("", "abc")
+Salida
+""
