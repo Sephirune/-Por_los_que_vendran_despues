@@ -1,0 +1,37 @@
+Funciones permitidas: Ninguna
+
+Enunciado
+Escribe una función que compruebe si la cadena 'small' es una subsecuencia de 'big'. Una subsecuencia significa que todos los caracteres de 'small' aparecen en 'big' en el mismo orden, pero no necesariamente de forma consecutiva. La función distingue entre mayúsculas y minúsculas.
+
+Firma de la función
+def hidenp(small: str, big: str) -> bool:
+
+Ejemplos
+Entrada
+hidenp("abc", "a1b2c3")
+Salida
+True
+Entrada
+hidenp("ace", "abcde")
+Salida
+True
+Entrada
+hidenp("aec", "abcde")
+Salida
+False
+Entrada
+hidenp("", "abc")
+Salida
+True
+Entrada
+hidenp("abc", "ab")
+Salida
+False
+Entrada
+hidenp("aaaa", "aaa")
+Salida
+False
+Entrada
+hidenp("sing","subsequence testing")
+Salida
+True
